@@ -1,0 +1,46 @@
+/* start of hero style */
+.hero-container {
+    display: flex;
+    margin: 0 132px 0 132px;
+    flex-wrap: wrap;
+}
+
+.hero-disc {
+    display: flex;
+    gap: 144px;
+}
+
+.hero-disc li h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 62px;
+    /* 103.333% */
+    letter-spacing: -2.4px;
+    width: 750px;
+}
+
+.hero-disc li p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 282px;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.hero-slide {
+    display: flex;
+    width: 436px;
+    height: 255px;
+    flex-shrink: 0;
+    background-color: var(--dark-green);
+    justify-content: center;
+}
+
+/* end of hero style  */

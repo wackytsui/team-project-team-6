@@ -1,0 +1,41 @@
+/* sale section style */
+
+.sale-text {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    /* 110% */
+    letter-spacing: -0.8px;
+}
+
+.classy-title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    /* 105.263% */
+    letter-spacing: -0.76px;
+    text-wrap: wrap;
+}
+
+.sale-container {
+    display: flex;
+
+}
+
+.classy-information {
+    color: rgba(20, 20, 20, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.14px;
+}
+
+.classy-strikethrough-text {
+    color: rgba(20, 20, 20, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.24px;
+    text-decoration: line-through;
+    ;
+}
