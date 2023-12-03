@@ -8,6 +8,10 @@
     letter-spacing: -0.8px;
 }
 
+.classy {
+    margin-left: 40px;
+}
+
 .classy-title {
     font-size: 38px;
     font-weight: 400;
@@ -17,9 +21,9 @@
     text-wrap: wrap;
 }
 
-.sale-container {
+.sale-section {
     display: flex;
-
+    margin-top: 124px;
 }
 
 .classy-information {
@@ -37,5 +41,8 @@
     line-height: 14px;
     letter-spacing: -0.24px;
     text-decoration: line-through;
-    ;
+}
+
+.classy-text {
+    margin-top: 44px;
 }
