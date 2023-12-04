@@ -126,8 +126,27 @@ h2 {
     height: 694px;
     background-color: white;
     border-radius: 4px;
-    padding: 24px;
-    margin-top: 80px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.modal img {
+    margin-top: 50px;
+}
+.modal form {
+    margin-left: 0px;
+}
+.catalog-watch-name-1 {
+    padding-bottom: 0;
+}
+.watch-break {
+    margin-bottom: 90%;
+    color: #14141480;
+    padding-bottom: 10%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .is-hidden {
@@ -144,6 +163,7 @@ h2 {
     color: blue;
     display: block;
     margin-left: auto;
+    margin-right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
