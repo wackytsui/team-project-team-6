@@ -16,7 +16,7 @@ h2 {
 
     column-gap: 24px;
     row-gap: 64px;
-
+    
     padding-left: 5%
 }
 
@@ -154,13 +154,14 @@ h2 {
     margin-top: 0;
     padding-top: 0;
 }
+
 .is-hidden {
     opacity: 0;
     pointer-events: none;
 }
 
 .modal-close-btn {
-    border-radius: 100%; 
+    border-radius: 100%;
     border: 1px solid var(--white);
     background-color: white;
     width: 20px;
