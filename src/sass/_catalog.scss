@@ -44,9 +44,10 @@ h2 {
     position: absolute;
     top: 14px;
     right: 14px;
-    fill: rgba(20, 20, 20, 0.1);
-    stroke: rgba(20, 20, 20, 0.1);
+    color: black;
+    stroke: black;
     stroke-width: 0.2;
+    z-index: 999;
 }
 
 .catalog-image-item:hover .catalog-image-caption-1 {
@@ -231,4 +232,14 @@ h2 {
 
 .catalog-policy span {
     text-decoration: underline;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1279px) {
+
 }
