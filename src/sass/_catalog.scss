@@ -44,7 +44,9 @@ h2 {
     position: absolute;
     top: 14px;
     right: 14px;
-
+    fill: rgba(20, 20, 20, 0.1);
+    stroke: rgba(20, 20, 20, 0.1);
+    stroke-width: 0.2;
 }
 
 .catalog-image-item:hover .catalog-image-caption-1 {
