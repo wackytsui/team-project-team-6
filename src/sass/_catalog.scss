@@ -13,11 +13,10 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 50px;
-
     column-gap: 24px;
     row-gap: 64px;
+    padding-left: 5%;
     
-    padding-left: 5%
 }
 
 .catalog-section li {
@@ -108,6 +107,8 @@ h2 {
     border-radius: 8px;
     display: block;
     margin-left: 75%;
+    position: absolute;
+    right: 83px;
 }
 
 .catalog-button:hover {
@@ -238,8 +239,14 @@ h2 {
     .container {
         width: 1280px;
     }
+
+    .catalog-container {
+        flex-basis: calc(100% / 4 - 24px);
+    }
 }
 
 @media (max-width: 1279px) {
-
+    .container {
+        width: 1279px;
+    }
 }
