@@ -12,69 +12,77 @@
         </p>
       </li>
     </ul>
-
     <!-- Slider -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./images/slide_1.png" alt="slide images" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/slide_2.png" alt="slide images" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/slide_3.png" alt="slide images" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/slide_4.png" alt="slide images" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./images/slide_5.png" alt="slide images" />
+    <div class="slider-container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/slide_1.png" alt="slide images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slide_2.png" alt="slide images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slide_3.png" alt="slide images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slide_4.png" alt="slide images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slide_5.png" alt="slide images" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="swiper-buttons">
-      <div class="button-prev">
-        <button type="button" class="swiper-button-prev">
-          <svg width="24" height="24">
+      <div class="swiper-buttons">
+        <div class="svg-button">
+          <svg
+            class="swiper-button-prev"
+            width="24"
+            height="24"
+            onclick="prevSlide()"
+          >
             <use href="./images/icons.svg#icon-chevron-left"></use>
           </svg>
-        </button>
-      </div>
-      <div class="button-next">
-        <button type="button" class="swiper-button-next">
-          <svg width="24" height="24">
+        </div>
+        <div class="svg-button">
+          <svg
+            class="swiper-button-next"
+            width="24"
+            height="24"
+            onclick="nextSlide()"
+          >
             <use href="./images/icons.svg#icon-chevron-right"></use>
           </svg>
-        </button>
+        </div>
       </div>
     </div>
-
-    <ul class="hero-image">
-      <li>
-        <img
-          src="./images/hero_image.png"
-          alt="hero_image"
-          width="676"
-          height="394"
-        />
-      </li>
-    </ul>
+    <div class="hero-image">
+      <img
+        src="./images/hero_image.png"
+        alt="hero_image"
+        width="676"
+        height="394"
+      />
+    </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
-    const swiper = new Swiper('.mySwiper', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      loop: true,
-      keyboard: {
-        enabled: true,
-      },
+    var swiper = new Swiper('.mySwiper', {
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      loop: true, // Enable looping
     });
+
+    // Functions to handle slide navigation
+    function nextSlide() {
+      swiper.slideNext();
+    }
+
+    function prevSlide() {
+      swiper.slidePrev();
+    }
   </script>
 </section>
