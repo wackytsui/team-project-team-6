@@ -12,6 +12,7 @@
         </p>
       </li>
     </ul>
+
     <!-- Slider -->
     <div class="slider-container">
       <div class="swiper mySwiper">
@@ -44,6 +45,7 @@
             <use href="./images/icons.svg#icon-chevron-left"></use>
           </svg>
         </div>
+
         <div class="svg-button">
           <svg
             class="swiper-button-next"
@@ -55,6 +57,7 @@
           </svg>
         </div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
     <div class="hero-image">
       <img
@@ -74,6 +77,19 @@
         prevEl: '.swiper-button-prev',
       },
       loop: true, // Enable looping
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'custom',
+        renderCustom: function (swiper, current, total) {
+          return `
+          <div class="swiper-pagination-custom">
+            <span>${(current < 10 ? '0' : '') + current}</span>
+            <div class="swiper-pagination-line"></div>
+            <span class="slide-count">${(total < 10 ? '0' : '') + total}</span>
+          </div>
+        `;
+        },
+      },
     });
 
     // Functions to handle slide navigation
