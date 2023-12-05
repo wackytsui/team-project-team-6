@@ -4,6 +4,9 @@
     --black: #141414;
     --black-opacity: hsba(0, 0%, 8%, 0.5);
 }
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;

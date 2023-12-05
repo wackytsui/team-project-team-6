@@ -2,12 +2,14 @@
 .hero-container {
     display: flex;
     margin: 0 132px 0 132px;
+    padding: 80px 0 80px 0;
     flex-wrap: wrap;
 }
 
 .hero-disc {
     display: flex;
     gap: 144px;
+    margin-bottom: 43px;
 }
 
 .hero-disc li h1 {

@@ -18,7 +18,7 @@
   align-items: center;
   gap: 4px;
 }
-a {
+.nav-list li a {
   text-decoration: none;
   color: var(--white);
 }
@@ -31,7 +31,6 @@ a {
 .btn-tel {
   height: 48px;
   width: 159px;
-  color: var(--white);
   text-align: center;
   font-size: 9px;
   font-weight: 400;
@@ -39,6 +38,10 @@ a {
   text-transform: uppercase;
   background-color: var(--dark-green);
   border-style: none;
+}
+.btn-tel a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 /* end of navigation style */
