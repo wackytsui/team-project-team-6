@@ -1,17 +1,22 @@
 /* sale section style */
 
-.sale-text {
+h2.sale-text {
     font-size: 40px;
     font-weight: 600;
     line-height: 44px;
     /* 110% */
     letter-spacing: -0.8px;
+    margin-left: 35px;
+    margin-right: 0;
+    margin-bottom: 80px;
+    margin-top: 0;
 }
 
 .sale-section {
     display: flex;
-    margin-top: 124px;
-    padding: 0 132px;
+    margin-top: 80px;
+    padding-left:  98px;
+    padding-bottom: 160px;
 }
 
 .sale-description,
@@ -35,11 +40,6 @@
 .sale-description {
     gap: 249px;
 } 
-
-
-.classy {
-    margin-left: 40px;
-}
 
 .classy-title {
     font-size: 38px;
@@ -75,10 +75,24 @@
 }
 
 .classy-text {
-    margin-top: 44px;
+    margin-top: 80px;
 }
 
 .information {
     margin-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td.sale-image1 {
+    padding-top: 80px;
+    padding-left: 13px;
+}
+
+td.sale-image2 {
+    padding-top: 0;
+    padding-left: 13px;
 }
 
