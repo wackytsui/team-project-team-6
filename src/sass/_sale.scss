@@ -8,7 +8,7 @@ h2.sale-text {
     letter-spacing: -0.8px;
     margin-left: 35px;
     margin-right: 0;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     margin-top: 0;
 }
 
@@ -29,8 +29,7 @@ h2.sale-text {
     display: flex;
     padding: 8px 0px;
     align-items: center;
-    width: 369px;
-    
+    width: 369px; 
 }
 
 .sale-details {
@@ -40,6 +39,31 @@ h2.sale-text {
 .sale-description {
     gap: 249px;
 } 
+
+.sale-image img {
+    display: block;
+}
+.sale-image1 {
+    padding-top: 80px;
+    padding-left: 13px;
+}
+
+.sale-image2 {
+    padding-top: 0;
+    padding-left: 13px;
+}
+
+.sale-image5 img {
+    background: rgb(21, 21, 21) 90% ;
+    width: 406px;
+    height: 614px;
+}
+
+.sale-image5 {
+    padding-top: 70px;
+    padding-right: 40px;
+    padding-left:20px;
+}
 
 .classy-title {
     font-size: 38px;
@@ -75,7 +99,7 @@ h2.sale-text {
 }
 
 .classy-text {
-    margin-top: 80px;
+    margin-top: 88px;
 }
 
 .information {
@@ -84,15 +108,5 @@ h2.sale-text {
 
 table {
     border-collapse: collapse;
-}
-
-td.sale-image1 {
-    padding-top: 80px;
-    padding-left: 13px;
-}
-
-td.sale-image2 {
-    padding-top: 0;
-    padding-left: 13px;
 }
 
