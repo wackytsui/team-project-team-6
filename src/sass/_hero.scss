@@ -70,28 +70,33 @@
 
 .swiper-pagination-custom
 {
- 
-    position: absolute;
-    right:20px;
+    display: flex;
+    left:280px;
+    text-align: right;
+    align-items:end;
+   
 }
-.swiper-pagination-line
+.swiper-pagination
 {
-    display: inline;
+   width:50px;
+   padding:25px;
+
 }
 .swiper-pagination-line::after {
     content: "";
      position: absolute;
      top: 50%;
-    
+
     height: 1px;
     background-color: var(--white);
     transform: translateY(-50%);
     width: 40px;
  }
 .slide-count{
-    padding:45px;
-}
+    padding-left:45px;
+    padding-right: 5px;
 
+}
 .svg-button{
     border: 1px solid var(--white);
         margin: 10px;
