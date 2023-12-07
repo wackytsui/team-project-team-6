@@ -1,0 +1,2 @@
+new Swiper(".mySwiper",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},loop:!0,pagination:{el:".swiper-pagination",type:"custom",renderCustom:function(n,i,e){return`\n      <div class="swiper-pagination-custom">\n        <span>${(i<10?"0":"")+i}</span>\n        <div class="swiper-pagination-line"></div>\n        <span class="slide-count">${(e<10?"0":"")+e}</span>\n      </div>\n    `}}});
+//# sourceMappingURL=index.c1b11c98.js.map
