@@ -228,7 +228,7 @@ h2 {
 // Desktop View //
 
 @media (min-width: 1280px) {
-    .container {
+    .catalog-container {
         width: 1280px;
     }
 
@@ -238,7 +238,7 @@ h2 {
 }
 
 @media (max-width: 1279px) {
-    .container {
+    .catalog-container {
         width: 1279px;
     }
 }
