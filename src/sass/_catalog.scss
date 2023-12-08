@@ -382,4 +382,24 @@ h2 {
         gap: 8px;
     }
 
+    .catalog-last-button {
+        display: flex;
+        width: 295px;
+        padding: 18px 222px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .catalog-policy {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.24px;
+    }
+
+    .privacy {
+        text-decoration-line: underline;
+    }
 }
