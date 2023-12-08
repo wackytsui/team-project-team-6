@@ -13,7 +13,11 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
-header, .hero-section {
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header, .hero-section, .mobile-header {
     background-color: var(--black);
     color: var(--white);
 

@@ -1,11 +1,11 @@
 /* start of hero style */
 .hero-container {
     display: flex;
-    margin: 0 132px 0 132px;
     flex-wrap: wrap;
-    padding: 80px 0 80px 0;
 }
-
+.hero-container li{
+    padding-top: 80px;  
+}
 .hero-disc {
     display: flex;
     gap: 144px;
@@ -31,19 +31,15 @@
 
 .hero-image {
     display: flex;
-    align-items: center;
-    gap: 64px;
-    padding-top: 43px;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:52px;
+    padding:0px;
+   
 }
-
-// .hero-slide {
-//     display: flex;
-//     width: 436px;
-//     height: 255px;
-//     flex-shrink: 0;
-//     background-color: var(--dark-green);
-//     justify-content: center;
-// }
+.hero-img{
+    margin-bottom:  125px;
+}
 
 /* end of hero style  */
 
@@ -59,6 +55,7 @@
 }
 .slider-container{
     position:relative;
+    padding:0px;
 }
 .slide-button{
     position: relative;
@@ -66,9 +63,9 @@
 
 .swiper-buttons{
     display: flex;
-    width:110px;
+    width:100px;
     margin-top: 50px;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
 }
 .swiper-wrapper{
     text-align: center;
@@ -81,7 +78,7 @@
 .swiper-pagination-custom
 {
     display: flex;
-    left:280px;
+    left:275px;
     text-align: right;
     align-items:end;
    
@@ -89,7 +86,7 @@
 .swiper-pagination
 {
    width:50px;
-   padding:25px;
+   padding:35px;
 
 }
 .swiper-pagination-line::after {
@@ -109,8 +106,29 @@
 }
 .svg-button{
     border: 1px solid var(--white);
-        margin: 10px;
-        border-radius: 8px;
-        width: 40px;
-        height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+ }
+  @media (max-width: 427px) {
+
+  }
+ @media (min-width: 428px){
+    .container {
+            width: 428px;
+        }
+ }
+ @media (max-width: 767px) {
+
+ }
+ @media (min-width: 768px){
+    .container {
+            width: 768px;
+        }
+ }
+ @media (min-width: 1200px){
+    .container {
+            width: 1200px;
+        }
  }
