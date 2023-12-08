@@ -10,7 +10,7 @@ var swiper = new Swiper('.mySwiper', {
     renderCustom: function (swiper, current, total) {
       return `
       <div class="swiper-pagination-custom">
-        <span>${(current < 10 ? '0' : '') + current}</span>
+        <span class="slide-count">${(current < 10 ? '0' : '') + current}</span>
         <div class="swiper-pagination-line"></div>
         <span class="slide-count">${(total < 10 ? '0' : '') + total}</span>
       </div>

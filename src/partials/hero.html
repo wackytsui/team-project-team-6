@@ -1,71 +1,61 @@
 <section class="hero-section">
-    <div class="hero-container">
-        <ul class="hero-disc">
-            <li>
-                <h1>
-                    Welcome to our collection of premium watches
-                </h1>
-            </li>
-            <li>
-                <p>
-                    Our watches are not just timepieces, but also an expression of your personality and lifestyle. From
-                    classic designs to modern ones, we have a watch to suit every taste and occasion.
-                </p>
-            </li>
-        </ul>
+  <div class="hero-container container">
+    <ul class="hero-disc">
+      <li>
+        <h1>Welcome to our collection of premium watches</h1>
+      </li>
+      <li>
+        <p>
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </li>
+    </ul>
 
-        <ul class="hero-image">
-            <li class="hero-slide">
-                    <!-- Slider -->
-    <div class="slider-container">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./images/slide_1.png" alt="slide images" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slide_2.png" alt="slide images" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slide_3.png" alt="slide images" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slide_4.png" alt="slide images" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slide_5.png" alt="slide images" />
+    <ul class="hero-image">
+      <li class="hero-slide">
+        <!-- Slider -->
+        <div class="slider-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/slide_1.png" alt="slide images" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slide_2.png" alt="slide images" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slide_3.png" alt="slide images" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slide_4.png" alt="slide images" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slide_5.png" alt="slide images" />
+              </div>
             </div>
           </div>
+          <div class="swiper-buttons">
+            <div class="svg-button">
+              <svg class="swiper-button-prev" width="24" height="24" onclick="prevSlide()">
+                <use href="./images/icons.svg#icon-chevron-left"></use>
+              </svg>
+            </div>
+
+            <div class="svg-button">
+              <svg class="swiper-button-next" width="24" height="24" onclick="nextSlide()">
+                <use href="./images/icons.svg#icon-chevron-right"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-buttons">
-          <div class="svg-button">
-            <svg
-              class="swiper-button-prev"
-              width="24"
-              height="24"
-              onclick="prevSlide()"
-            >
-              <use href="./images/icons.svg#icon-chevron-left"></use>
-            </svg>
-          </div>
-  
-          <div class="svg-button">
-            <svg
-              class="swiper-button-next"
-              width="24"
-              height="24"
-              onclick="nextSlide()"
-            >
-              <use href="./images/icons.svg#icon-chevron-right"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-            </li>
-            <li>
-                <img src="./images/hero_image.png" alt="hero_image" width="676" height="394">
-            </li>
-        </ul>
-    </div>
+      </li>
+      <li class="hero-img">
+        <img src="./images/hero_image.png" alt="hero_image" width="676" height="394" />
+      </li>
+    </ul>
+  </div>
 </section>

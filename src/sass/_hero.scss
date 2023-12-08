@@ -1,8 +1,12 @@
 /* start of hero style */
 .hero-container {
     display: flex;
-    margin: 0 132px 0 132px;
+        margin: 0 132px 0 132px;
     flex-wrap: wrap;
+}
+
+.hero-container li {
+    padding-top: 80px;
 }
 
 .hero-disc {
@@ -31,17 +35,15 @@
 .hero-image {
     display: flex;
     align-items: center;
-    gap: 64px;
+    flex-wrap: wrap;
+    gap: 52px;
+    padding: 0px;
+
 }
 
-// .hero-slide {
-//     display: flex;
-//     width: 436px;
-//     height: 255px;
-//     flex-shrink: 0;
-//     background-color: var(--dark-green);
-//     justify-content: center;
-// }
+.hero-img {
+    margin-bottom: 125px;
+}
 
 /* end of hero style  */
 
@@ -51,51 +53,94 @@
     width: 436px;
     height: 255px;
     flex-shrink: 0;
+    flex-shrink: 0;
     background-color: var(--dark-green);
     justify-content: center;
 }
-.slider-container{
-    position:relative;
+
+.slider-container {
+    position: relative;
+    padding: 0px;
 }
-.slide-button{
+
+.slide-button {
     position: relative;
 }
 
-.swiper-buttons{
+.swiper-buttons {
     display: flex;
-    width:110px;
+    width: 100px;
     margin-top: 50px;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
 }
 
-.swiper-pagination-custom
-{
- 
-    position: absolute;
-    right:20px;
+.swiper-wrapper {
+    text-align: center;
 }
-.swiper-pagination-line
-{
-    display: inline;
+
+.swiper-slide img {
+    width: 348px;
+    height: 233px;
+    flex-shrink: 0;
 }
+
+.swiper-pagination-custom {
+    display: flex;
+    left: 275px;
+    text-align: right;
+    align-items: end;
+
+}
+
+.swiper-pagination {
+    width: 50px;
+    padding: 35px;
+
+}
+
 .swiper-pagination-line::after {
     content: "";
-     position: absolute;
-     top: 50%;
-    
+    position: absolute;
+    top: 50%;
+
     height: 1px;
     background-color: var(--white);
     transform: translateY(-50%);
     width: 40px;
- }
-.slide-count{
-    padding:45px;
 }
 
-.svg-button{
+.slide-count {
+    padding-left: 45px;
+    padding-right: 5px;
+
+}
+
+.svg-button {
     border: 1px solid var(--white);
-        margin: 10px;
-        border-radius: 8px;
-        width: 40px;
-        height: 40px;
- }
+    margin: 5px;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 427px) {}
+
+@media (min-width: 428px) {
+    .container {
+        width: 428px;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
