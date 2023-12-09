@@ -329,13 +329,30 @@
         text-overflow: ellipsis;
     }
     
-
     .service-form {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 18px;
         align-self: stretch;
+    }
+
+    .service-form > input {
+        // display: flex;
+        width: 295px;
+        padding: 12px 16px;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    textarea {
+        // display: flex;
+        width: 295px;
+        padding: 12px 16px;
+        align-items: flex-start;
+        gap: 8px;
+        flex: 1 0 0;
+        resize: none;
     }
 
     .catalog-last-button {
