@@ -1,0 +1,292 @@
+// Tablet Media Querries 
+@media (min-width: 768px) and (max-width: 1157px) {
+    .catalog-image-item-1 {
+        display: none;
+    }
+
+    .catalog-button {
+        margin-left: 77%;
+    }
+
+    .catalog-watch-name-1 {
+        margin-right: 2px;
+    }
+
+    .catalog-backdrop {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal {
+        width: 744px;
+        height: 670px;
+        background-color: white;
+        position: absolute;
+        border-radius: 4px;
+        margin-top: 10px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .watch-break {
+        margin-bottom: 50%;
+        margin-right: 20px;
+        color: #14141480;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .modal-heart {
+        padding-left: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .modal img {
+        margin-top: 0px;
+    }
+
+    .service-input {
+        box-sizing: border-box;
+        width: 350px;
+        height: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 8px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+
+    .text {
+        box-sizing: border-box;
+        width: 350px;
+        height: 200px;
+    }
+
+    .catalog-last-button {
+        box-sizing: border-box;
+        width: 350px;
+        height: 40px;
+    }
+
+    .catalog-policy {
+        font-size: 11px;
+    }
+
+    .watch-break {
+        padding-bottom: 45%;
+    }
+}
+
+@media (min-width:375px) and (max-width: 767px) {
+// start of header query
+    .container {
+        width: 375px;
+    }
+    .nav-container,
+    .button,
+    .header-logo {
+        display: none;
+    }
+    .js-open-menu {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+    .mobile-header {
+        display: flex;
+        margin: 0;
+        padding: 30px 20px;
+        justify-content: space-between;
+    }
+
+    .mobile-logo-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-modal.is-open {
+        transform: translateX(0);
+    }
+
+    .mobile-modal {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 30px 20px;
+        position: fixed;
+        z-index: 2;
+        background-color: var(--dark-green);
+        transform: translateX(100%);
+        transition: transform 250ms ease-in-out;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .logo-container {
+        align-items: flex-start;
+    }
+
+    .icon-close-mobile {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        fill: var(--white);
+    }
+    .mobile-nav-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .nav-list {
+        display: flex;
+        gap: 14px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+    // end of header query
+
+    // start of hero query
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        margin: 0;
+    }
+    .hero-disc {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    .hero-disc li h1 {
+        font-size: 38px;
+    }
+    .hero-image {
+        flex-direction: column;
+    }
+    .swiper {
+        display: flex;
+        margin: 0;
+        width: 266px;
+        height: 200px;
+        flex-shrink: 0;
+    }
+    .swiper-slide img {
+        width: 226px;
+        height: 190px;
+        flex-shrink: 0;
+    }
+    .hero-img img {
+        width: 335px;
+        height: 410px;
+        flex-shrink: 0;
+    }
+    .swiper-pagination-custom {
+        left: 100px;
+
+    }
+    // end of hero query
+
+    // start of about query
+    .about-container {
+        margin: 0;
+        padding: 40px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-container li h2 {
+        width: 140px;
+        font-size: 32px;
+    }
+    .about-disc {
+        gap: 40px;
+    }
+    .about-disc-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-text p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-image {
+        width: 335px;
+        height: 365px;
+    }
+    // end of about query
+
+    // start of catalog query
+    .catalog-section {
+        margin: 0;
+        padding: 40px 20px;
+    }
+    .catalog-section h2 {
+        margin: 0;
+        padding: 0 0 40px 0;
+        font-size: 32px;
+    }
+    .catalog-container {
+        justify-content: center;
+    }
+    .catalog-button {
+        margin: 0;
+        padding: 14px 28px;
+    }
+    // end of catalog query
+
+    // start of watches section query
+    .watches-section {
+        padding: 0;
+    }
+    .watches-container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 80px 20px;
+    }
+    .watch-title-list {
+        flex-wrap: wrap;
+    }
+    .watch-title-subhead p {
+        width: 335px;
+        flex-shrink: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        color: var(--black, #141414);
+        font-size: 32px;
+        line-height: 40px;
+        /* 125% */
+        letter-spacing: -0.64px;
+    }
+    .watches-image-list {
+        flex-direction: column;
+    }
+    .watch-img {
+        width: 335px;
+        height: 260px;
+    }
+    .watch-img img {
+        width: 335px;
+        height: 260px;
+    }
+    // end of watches section query
+
+    // start of sale section
+
+    // end of sale section
+}
