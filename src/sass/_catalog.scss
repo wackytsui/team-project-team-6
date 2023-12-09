@@ -62,7 +62,7 @@ h2 {
     height: 18px;
 }
 
-.catalog-image-item-1>.catalog-watch-name {
+.catalog-image-item-1 >.catalog-watch-name {
     overflow: hidden;
     color: var(--black);
     // line-height: 18px;
@@ -72,7 +72,7 @@ h2 {
     height: 18px;
 }
 
-.catalog-image-item>.catalog-watch-price {
+.catalog-image-item >.catalog-watch-price {
     color: rgba(20, 20, 20, 0.50);
     font-size: 12px;
     font-style: normal;
@@ -82,7 +82,7 @@ h2 {
     letter-spacing: -0.24px;
 }
 
-.catalog-image-item-1>.catalog-watch-price {
+.catalog-image-item-1 >.catalog-watch-price {
     color: rgba(20, 20, 20, 0.50);
     font-size: 12px;
     font-style: normal;
@@ -196,7 +196,7 @@ h2 {
     width: 20px;
     height: 20px;
     color: blue;
-    display: block;
+    display:block;
     margin-left: auto;
     margin-right: 10px;
     display: flex;
@@ -345,11 +345,12 @@ h2 {
     }
 }
 
-// Mobile Media Querries 
-@media (min-width: 320px) and (max-width: 480px) {
+// Mobile Media Query
+@media only screen and (max-width: 480px) {
     // catalog
-    .container {
-        width: 375px;
+    .container-section {
+        width: 335px;
+        height: 3722px;
     }
 
     .catalog-image-item-1 > img {
@@ -362,7 +363,24 @@ h2 {
         white-space: nowrap;
     }
 
+    .catalog-image:nth-child(n+9) {
+        display: none;
+    }
+
     // buy-now modal
+    .catalog-button {
+        display: inline-flex;
+        padding: 14px 28px;
+        align-items: flex-start;
+        gap: 10px;
+
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
     .modal {
         display: flex;
         width: 335px;
@@ -371,6 +389,9 @@ h2 {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
+
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 8.775px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.237px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.03px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.6px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
     }
 
     .service-input, 
