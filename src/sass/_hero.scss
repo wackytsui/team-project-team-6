@@ -27,6 +27,7 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
+    flex-wrap: wrap;
     /* 128.571% */
     letter-spacing: -0.28px;
     width: 282px;
@@ -40,7 +41,6 @@
     padding: 0px;
 
 }
-
 .hero-img {
     margin-bottom: 125px;
 }
@@ -58,9 +58,12 @@
     justify-content: center;
 }
 
-.slider-container {
+.slider-container {   
+    box-sizing: border-box;
     position: relative;
     padding: 0px;
+
+    border:0.5px solid red;
 }
 
 .slide-button {
