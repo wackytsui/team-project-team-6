@@ -286,6 +286,14 @@
         box-shadow: 0px 0px 8.775px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.237px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.03px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.6px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
     }
 
+    .modal-close-btn {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+    }
+
     .modal {
         display: flex;
         width: 295px;
@@ -307,21 +315,27 @@
         align-items: center;
     }
 
-    .modal > .catalog-watch-name-1 {
+    .modal > .catalog-watch-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    
+    .catalog-watch-name-1 {
         width: 276px;
+        height: 18px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
     
-    
 
-    .service-input,
-    .text {
+    .service-form {
         display: flex;
-        width: 295px;
-        padding: 12px 16px;
+        flex-direction: column;
         align-items: flex-start;
-        gap: 8px;
+        gap: 18px;
+        align-self: stretch;
     }
 
     .catalog-last-button {
