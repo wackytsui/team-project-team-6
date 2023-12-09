@@ -63,17 +63,18 @@ a {
 /* end of navigation style */
 
 // mobile query
-@media (max-width: 427px) {
+@media (max-width: 428px) {
+  .container {
+        width: 428px;
+  }
+
   .button {
     display: none;
   }
-}
 
-@media (min-width: 428px) {
-  .container {
-    width: 428px;
+  header {
+    padding: 0 20px;
   }
-
 }
 
 @media (max-width: 767px) {

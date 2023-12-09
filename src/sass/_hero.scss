@@ -1,7 +1,7 @@
 /* start of hero style */
 .hero-container {
     display: flex;
-        margin: 0 132px 0 132px;
+    margin: 0 132px 0 132px;
     flex-wrap: wrap;
 }
 
@@ -53,7 +53,6 @@
     width: 436px;
     height: 255px;
     flex-shrink: 0;
-    flex-shrink: 0;
     background-color: var(--dark-green);
     justify-content: center;
 }
@@ -102,7 +101,6 @@
     content: "";
     position: absolute;
     top: 50%;
-
     height: 1px;
     background-color: var(--white);
     transform: translateY(-50%);
@@ -123,11 +121,80 @@
     height: 40px;
 }
 
-@media (max-width: 427px) {}
-
-@media (min-width: 428px) {
+// <!--Media Queries-->
+@media (max-width: 428px) {
     .container {
         width: 428px;
+    }
+
+    .hero-container {
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .hero-disc {
+        display: inline-block;
+    }
+
+    .hero-disc li h1 {
+        width: 335px;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        /* 105.263% */
+        letter-spacing: -1.52px;
+    }
+
+    .swiper {
+        width: 266px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .swiper-slide img {
+        padding: 20px;
+    }
+
+    .hero-disc li p {
+        display: none;
+    }
+
+    .hero-container li {
+        padding-top: 40px;
+    }
+
+    .hero-slide::after {
+        content: "Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.";
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+        width: 248px;
+        height: 108px;
+        margin: 0px 0px 0px 107px;
+        display: flex;
+    }
+
+    .swiper-slide img {
+        width: 266px;
+        height: 190px;
+        padding: 0;
+    }
+
+    .swiper-pagination {
+        left: 106px;
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: 410px;
+        padding: 0;
+    }
+
+    .hero-img {
+        margin: 0 0 40px 0;
     }
 }
 
