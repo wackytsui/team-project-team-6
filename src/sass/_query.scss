@@ -89,6 +89,36 @@
     .watch-break {
         padding-bottom: 45%;
     }
+
+// start of sale query
+
+    h2.sale-text {
+        margin: 0 0 0 20px;
+    }
+
+    .sale-section {
+        display: block;
+        margin: 66px 0;
+        padding: 0;
+    }
+
+    .sale-image1 img,
+    .sale-image2 img{
+        padding-left: 66px;
+    }
+
+    .sale-image5 img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .sale-div {
+        padding-left: 20px;
+        margin-left: 66px;
+    }
+
+//end of sale query
 }
 
 @media (min-width:375px) and (max-width: 767px) {
@@ -303,7 +333,7 @@
         padding: 0;
       }
 
-      .sale-image {
+      .sale-image img{
         display: block;
       }
 
@@ -314,9 +344,16 @@
      .sale-image5 {
         border: 1px solid var(--black, #141414);
         background: #141414;
+        width: 235px;
+        height: 350px;
+        padding: 14px 12px;
+      }
+    
+      .sale-image5 img {
+        background: rgb(21, 21, 21) 90%;
         width: 211px;
         height: 322px;
-        padding: 14px 12px;
+
       }
 
       .sale-image1 img,
@@ -324,13 +361,6 @@
         width: 80px;
         height: 80px;
         margin: 0 20px 10px 10px;
-      }
-
-      .sale-image5 img {
-        background: rgb(21, 21, 21) 90%;
-        width: 211px;
-        height: 322px;
-        flex-shrink: 0;
       }
 
       .sale-div{
@@ -423,6 +453,6 @@
         margin-left: 28px;
     }
 
-    
+    //end of footer query
     
 }
