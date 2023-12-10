@@ -1,3 +1,28 @@
+// PC Media Query 
+@media (min-width: 1158px) and (max-width: 4000px) {
+
+    .modal-close-btn-1 {
+        display: none;
+    }
+
+    .modal-close-btn {
+        border-radius: 100%;
+        border: 1px solid var(--white);
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        color: var(--black);
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+}
+
 // Tablet Media Querries 
 @media (min-width: 768px) and (max-width: 1157px) {
     .catalog-image-item-1 {
@@ -20,7 +45,8 @@
         top: 0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
+        padding-left: 60px;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -36,6 +62,27 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .modal-close-btn {
+        border-radius: 100%;
+        border: 1px solid var(--white);
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        color: var(--black);
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+
+    .modal-close-btn-1 {
+        display: none;
     }
 
     .watch-break {
@@ -91,21 +138,26 @@
     }
 }
 
+// Mobile Media Querries
 @media (min-width:375px) and (max-width: 767px) {
-// start of header query
+
+    // start of header query
     .container {
         width: 375px;
     }
+
     .nav-container,
     .button,
     .header-logo {
         display: none;
     }
+
     .js-open-menu {
         width: 36px;
         height: 36px;
         flex-shrink: 0;
     }
+
     .mobile-header {
         display: flex;
         margin: 0;
@@ -147,11 +199,13 @@
         flex-shrink: 0;
         fill: var(--white);
     }
+
     .mobile-nav-container {
         display: flex;
         justify-content: center;
         margin-top: 200px;
     }
+
     .nav-list {
         display: flex;
         gap: 14px;
@@ -159,6 +213,7 @@
         align-items: center;
         font-size: 14px;
     }
+
     // end of header query
 
     // start of hero query
@@ -168,17 +223,21 @@
         padding: 0 20px;
         margin: 0;
     }
+
     .hero-disc {
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
     }
+
     .hero-disc li h1 {
         font-size: 38px;
     }
+
     .hero-image {
         flex-direction: column;
     }
+
     .swiper {
         display: flex;
         margin: 0;
@@ -186,20 +245,24 @@
         height: 200px;
         flex-shrink: 0;
     }
+
     .swiper-slide img {
         width: 226px;
         height: 190px;
         flex-shrink: 0;
     }
+
     .hero-img img {
         width: 335px;
         height: 410px;
         flex-shrink: 0;
     }
+
     .swiper-pagination-custom {
         left: 100px;
 
     }
+
     // end of hero query
 
     // start of about query
@@ -209,25 +272,31 @@
         flex-direction: column;
         gap: 40px;
     }
+
     .about-container li h2 {
         width: 140px;
         font-size: 32px;
     }
+
     .about-disc {
         gap: 40px;
     }
+
     .about-disc-container {
         flex-direction: column;
         gap: 20px;
     }
+
     .about-text p {
         display: flex;
         flex-wrap: wrap;
     }
+
     .about-image {
         width: 335px;
         height: 365px;
     }
+
     // end of about query
 
     // start of catalog query
@@ -235,32 +304,138 @@
         margin: 0;
         padding: 40px 20px;
     }
+
     .catalog-section h2 {
         margin: 0;
         padding: 0 0 40px 0;
         font-size: 32px;
     }
+
     .catalog-container {
         justify-content: center;
     }
+
     .catalog-button {
         margin: 0;
         padding: 14px 28px;
     }
+
     // end of catalog query
+
+    // start of modal query
+    .catalog-backdrop {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        left: 1;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 4.5%;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal {
+        width: 335px;
+        height: 1073px;
+        background-color: white;
+        position: absolute;
+        border-radius: 4px;
+        padding: 24px;
+        margin-top: 10px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .modal img {
+        margin-top: 10px;
+    }
+
+    .catalog-image-item-1 {
+        display: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .watch-break {
+        margin-bottom: 10px;
+        color: #14141480;
+        padding-bottom: 5%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .modal-close-btn-1 {
+        border-radius: 100%;
+        border: 1px solid var(--white);
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        color: var(--black);
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+
+    .modal-close-btn {
+        display: none;
+    }
+
+    .service-input {
+        box-sizing: border-box;
+        width: 290px;
+        height: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 8px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+
+    .text {
+        box-sizing: border-box;
+        width: 290px;
+        height: 200px;
+    }
+
+    .catalog-last-button {
+        box-sizing: border-box;
+        width: 290px;
+        height: 40px;
+    }
+
+    .catalog-policy {
+        font-size: 12px;
+        padding-left: 12px;
+    }
 
     // start of watches section query
     .watches-section {
         padding: 0;
     }
+
     .watches-container {
         flex-direction: column;
         gap: 40px;
         padding: 80px 20px;
     }
+
     .watch-title-list {
         flex-wrap: wrap;
     }
+
     .watch-title-subhead p {
         width: 335px;
         flex-shrink: 0;
@@ -273,17 +448,21 @@
         /* 125% */
         letter-spacing: -0.64px;
     }
+
     .watches-image-list {
         flex-direction: column;
     }
+
     .watch-img {
         width: 335px;
         height: 260px;
     }
+
     .watch-img img {
         width: 335px;
         height: 260px;
     }
+
     // end of watches section query
 
     // start of sale section
