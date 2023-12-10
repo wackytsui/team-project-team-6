@@ -288,5 +288,141 @@
 
     // start of sale section
 
+    h2.sale-text {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.64px;
+        margin: 0 0 0 20px;
+        letter-spacing: -0.8px;
+    
+      }
+    
+      .sale-section {
+        display: block;
+        margin: 40px 0;
+        padding: 0;
+      }
+
+      .sale-image {
+        display: block;
+      }
+
+      .sale-image1 {
+        padding-top: 40px;
+      }
+
+     .sale-image5 {
+        border: 1px solid var(--black, #141414);
+        background: #141414;
+        width: 211px;
+        height: 322px;
+        padding: 14px 12px;
+      }
+
+      .sale-image1 img,
+      .sale-image2 img {
+        width: 80px;
+        height: 80px;
+        margin: 0 20px 10px 10px;
+      }
+
+      .sale-image5 img {
+        background: rgb(21, 21, 21) 90%;
+        width: 211px;
+        height: 322px;
+        flex-shrink: 0;
+      }
+
+      .sale-div{
+        margin-left: 20px;
+      }
+
+      .classy-title {
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        margin-bottom: 8px;
+    }
+    
+    .classy-price {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 40px;
+    }
+    
+    .classy-information {
+        letter-spacing: -0.28px;
+        width: 335px;
+        margin-bottom: 16px;
+    }
+    
+    .classy-text {
+        margin-top: 40px;
+        width: 335px;
+    }
+
+    .classy-title br {
+        display: none; 
+    }
+    
+    .information {
+        margin-bottom: 40px;
+    }
+
     // end of sale section
+
+    //start of footer query
+
+    footer {
+        width: 100%;
+    }
+
+    .section-footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-list {
+        margin-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    .contact-list,
+    .address-list {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .privacy{
+        display: inline-block;
+        margin: 88px 0 20px 20px;
+    }
+    .footer-copyright,
+    .footer-policy{
+        color: #C6CDD1;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.24px;
+    }
+
+    .footer-policy {
+        margin-top: 14px;
+        color: #C6CDD1;
+    }
+
+    .social-footer {
+        margin-left: 28px;
+    }
+
+    
+    
 }
