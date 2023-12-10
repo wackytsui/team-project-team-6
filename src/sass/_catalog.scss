@@ -187,22 +187,21 @@
     pointer-events: none;
 }
 
-.modal-close-btn {
-    border-radius: 100%;
-    border: 1px solid var(--white);
-    background-color: white;
-    width: 20px;
-    height: 20px;
-    color: blue;
-    display: block;
-    margin-left: auto;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-}
+// .modal-close-btn {
+//     border-radius: 100%;
+//     border: 1px solid var(--white);
+//     background-color: white;
+//     width: 20px;
+//     height: 20px;
+//     color: blue;
+//     margin-left: auto;
+//     margin-right: 10px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     cursor: pointer;
+// }
 .modal-close-btn-1 {
     border-radius: 100%;
     border: 1px solid var(--white);
@@ -210,7 +209,6 @@
     width: 20px;
     height: 20px;
     color: blue;
-    display: block;
     margin-left: auto;
     margin-right: 10px;
     display: flex;
