@@ -34,7 +34,7 @@
 
     .header-logo {
         padding: 0;
-        margin: 0 38px 0;
+        margin: 55px 38px 0;
     }
 
     .logo-container {
@@ -566,6 +566,64 @@
     // end of watches section query
 
     // start of sale section
+    .sale-container {
+        margin: 80px 20px;
+    }
+
+    .sale-img-container {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale-img-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sale-img-small {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sale-img-grid,
+    .sale-img-grid img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .sale-img-large,
+    .sale-img-large img {
+        width: 235px;
+        height: 350px;
+    }
+
+    .sale-disc-title h3 {
+        font-size: 24px;
+    }
 
     // end of sale section
+
+    // start of footer query
+    .section-footer {
+        margin: 40px 20px;
+        position: relative;
+    }
+
+    .social-footer {
+        position: absolute;
+        top: 350px;
+        left: 0;
+    }
+
+    .footer-privacy {
+        margin: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        padding-bottom: 20px;
+    }
+
+    // end of footer query
 }

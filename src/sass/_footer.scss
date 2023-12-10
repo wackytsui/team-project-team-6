@@ -69,8 +69,13 @@
     fill: var(--white);
 }
 
-.privacy {
+.footer-privacy {
+    color: #C6CDD1;
     display: flex;
     justify-content: space-between;
     margin: 0 132px 0 132px;
+}
+
+.footer-privacy li a {
+    color: #C6CDD1;
 }
