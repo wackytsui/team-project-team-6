@@ -2,7 +2,7 @@
     --dark-green: #1E2827;
     --white: #FFF;
     --black: #141414;
-    --black-opacity: hsba(0, 0%, 8%, 0.5);
+    --black-opacity: rgba(20, 20, 20, 0.50);
 }
 
 * {
@@ -39,6 +39,7 @@ footer {
 ul {
     list-style: none;
 }
+
 html {
     scroll-behavior: smooth;
 }

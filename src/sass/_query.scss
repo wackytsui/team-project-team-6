@@ -92,20 +92,24 @@
 }
 
 @media (min-width:375px) and (max-width: 767px) {
-// start of header query
+
+    // start of header query
     .container {
         width: 375px;
     }
+
     .nav-container,
     .button,
     .header-logo {
         display: none;
     }
+
     .js-open-menu {
         width: 36px;
         height: 36px;
         flex-shrink: 0;
     }
+
     .mobile-header {
         display: flex;
         margin: 0;
@@ -147,11 +151,13 @@
         flex-shrink: 0;
         fill: var(--white);
     }
+
     .mobile-nav-container {
         display: flex;
         justify-content: center;
         margin-top: 200px;
     }
+
     .nav-list {
         display: flex;
         gap: 14px;
@@ -159,6 +165,7 @@
         align-items: center;
         font-size: 14px;
     }
+
     // end of header query
 
     // start of hero query
@@ -168,17 +175,21 @@
         padding: 0 20px;
         margin: 0;
     }
+
     .hero-disc {
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
     }
+
     .hero-disc li h1 {
         font-size: 38px;
     }
+
     .hero-image {
         flex-direction: column;
     }
+
     .swiper {
         display: flex;
         margin: 0;
@@ -186,20 +197,24 @@
         height: 200px;
         flex-shrink: 0;
     }
+
     .swiper-slide img {
         width: 226px;
         height: 190px;
         flex-shrink: 0;
     }
+
     .hero-img img {
         width: 335px;
         height: 410px;
         flex-shrink: 0;
     }
+
     .swiper-pagination-custom {
         left: 100px;
 
     }
+
     // end of hero query
 
     // start of about query
@@ -209,25 +224,31 @@
         flex-direction: column;
         gap: 40px;
     }
+
     .about-container li h2 {
         width: 140px;
         font-size: 32px;
     }
+
     .about-disc {
         gap: 40px;
     }
+
     .about-disc-container {
         flex-direction: column;
         gap: 20px;
     }
+
     .about-text p {
         display: flex;
         flex-wrap: wrap;
     }
+
     .about-image {
         width: 335px;
         height: 365px;
     }
+
     // end of about query
 
     // start of catalog query
@@ -235,32 +256,42 @@
         margin: 0;
         padding: 40px 20px;
     }
+
     .catalog-section h2 {
         margin: 0;
         padding: 0 0 40px 0;
         font-size: 32px;
     }
+
     .catalog-container {
         justify-content: center;
     }
+
     .catalog-button {
         margin: 0;
         padding: 14px 28px;
     }
+
     // end of catalog query
+
+    // catalog modal
+
 
     // start of watches section query
     .watches-section {
         padding: 0;
     }
+
     .watches-container {
         flex-direction: column;
         gap: 40px;
         padding: 80px 20px;
     }
+
     .watch-title-list {
         flex-wrap: wrap;
     }
+
     .watch-title-subhead p {
         width: 335px;
         flex-shrink: 0;
@@ -273,20 +304,82 @@
         /* 125% */
         letter-spacing: -0.64px;
     }
+
     .watches-image-list {
         flex-direction: column;
     }
+
     .watch-img {
         width: 335px;
         height: 260px;
     }
+
     .watch-img img {
         width: 335px;
         height: 260px;
     }
+
     // end of watches section query
 
     // start of sale section
+    .sale-container {
+        margin: 80px 20px;
+    }
+
+    .sale-img-container {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale-img-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sale-img-small {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sale-img-grid,
+    .sale-img-grid img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .sale-img-large,
+    .sale-img-large img {
+        width: 235px;
+        height: 350px;
+    }
+
+    .sale-disc-title h3 {
+        font-size: 24px;
+    }
 
     // end of sale section
+
+    // start of footer query
+    .section-footer {
+        margin: 40px 20px;
+        position: relative;
+    }
+
+    .social-footer {
+        position: absolute;
+        top: 350px;
+        left: 0;
+    }
+
+    .footer-privacy {
+        margin: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        padding-bottom: 20px;
+    }
+
+    // end of footer query
 }
