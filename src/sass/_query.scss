@@ -167,15 +167,16 @@
     .hero-container {
         display: flex;
         flex-direction: column;
-        padding: 0 20px;
+        padding: 0 20px 120px;
         margin: 0;
+        position: relative;
      
     }
     .hero-disc {
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
-        gap:352px;
+        gap:282px;
         
     }
     .hero-disc li h1 {
@@ -196,25 +197,41 @@
     margin-left:auto;
     
     }
-    .hero-slide{
-        display: inline-block;
-        position: absolute;
-        top: 307px;
-        text-align: left;
-        margin-right: auto;
-    }
-    .hero-image {
+     .hero-image {
         display:flex;
         flex-direction: column;
         text-align: center;
     }
+    
+    .hero-image li{
+        display: inline-block;
+    }
+    .hero-slide{
+        display: inline-block;
+        text-align: left;
+        margin-right: auto;
+        position: absolute;
+        top:185px;
+        width: 266px;
+        height: 200px;
+        flex-shrink: 0;
+    }
+   
     .swiper {
         display: flex;
         margin: 0;
         width: 266px;
         height: 200px;
         flex-shrink: 0;
+       
     }
+    .swiper-buttons{
+        transform: translateY(-70%);
+    } 
+   .slider-container {
+        position: relative;
+
+    }  
     .swiper-slide img {
         width: 226px;
         height: 190px;
@@ -225,8 +242,9 @@
         width: 335px;
         height: 410px;
         object-fit: cover;
-        
-        
+    }
+    .swiper-pagination{
+        padding: 35px;
     }
     .swiper-pagination-custom {
         left: 100px;
@@ -327,10 +345,34 @@
     .hero-image{
         display: flex;
         align-items: flex-end;
-    
+        justify-content: space-between;
+        position: relative;
     }
+    .hero-disc {
+    gap: 144px;
+}
+    .hero-image {
+    flex-wrap: nowrap;
+    gap: 64px;
+}
+    .swiper{
+        margin-bottom: 60px;
+    }
+    .swiper-buttons {
+    position:absolute;
+    bottom:0;
+}
+.slider-container {
 
-  
-        
+    padding: 0px;
+    
+}
+.swiper-wrapper {
+    padding: 11px 44px;
+}
+.swiper-pagination-custom {
+    left: 300px;
+ 
+}
 
 }
