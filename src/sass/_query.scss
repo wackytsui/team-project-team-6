@@ -116,6 +116,8 @@
     .mobile-logo-container {
         display: flex;
         justify-content: space-between;
+      
+
     }
 
     .mobile-modal.is-open {
@@ -130,7 +132,7 @@
         width: 100%;
         padding: 30px 20px;
         position: fixed;
-        z-index: 2;
+        z-index: 10;
         background-color: var(--dark-green);
         transform: translateX(100%);
         transition: transform 250ms ease-in-out;
@@ -172,12 +174,38 @@
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
+        gap:352px;
+        
     }
     .hero-disc li h1 {
         font-size: 38px;
+        color:var(--white);
+        line-height: 1.05em;
+        letter-spacing: -1.52px;
+        width: 335px;
+        font-weight: 600;
+    }
+    .hero-disc li p{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.28em;
+    letter-spacing: -0.28px;
+    width: 248px;
+    margin-left:auto;
+    
+    }
+    .hero-slide{
+        display: inline-block;
+        position: absolute;
+        top: 307px;
+        text-align: left;
+        margin-right: auto;
     }
     .hero-image {
+        display:flex;
         flex-direction: column;
+        text-align: center;
     }
     .swiper {
         display: flex;
@@ -190,11 +218,14 @@
         width: 226px;
         height: 190px;
         flex-shrink: 0;
+        
     }
     .hero-img img {
         width: 335px;
         height: 410px;
-        flex-shrink: 0;
+        object-fit: cover;
+    
+        
     }
     .swiper-pagination-custom {
         left: 100px;
@@ -289,4 +320,16 @@
     // start of sale section
 
     // end of sale section
+}
+
+@media (min-width:1158px){
+    .hero-image{
+        display: flex;
+        align-items: flex-end;
+    
+    }
+
+  
+        
+
 }
