@@ -382,4 +382,25 @@
     }
 
     // end of footer query
+
+    // start of catalog query
+    .modal {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 1073px;
+        margin: 0;
+        padding: 0;
+        gap: 8px;
+    }
+    .modal img {
+        width: 276px;
+        height: 274px;
+        flex-shrink: 0;
+    }
+    .watch-break {
+        margin: 0;
+        padding: 0;
+    }
+    // end of catalog query
 }
