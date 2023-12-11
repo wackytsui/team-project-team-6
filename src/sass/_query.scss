@@ -1,8 +1,8 @@
 // Tablet Media Querries 
 @media (min-width: 768px) and (max-width: 1157px) {
     .container{
-        width: 768px;   
-        border:0.5px solid red  ;  
+        width: 768px;  
+        padding-bottom:64px;           
     }
     //header//
     .header-logo{
@@ -49,6 +49,11 @@
      .swiper-pagination-custom {
             left: 275px;
     }      
+    .hero-img {
+        width: 676px;
+        height: 394px;
+           } 
+    }
        //ABOUT//
     .about-container{
         margin: 64px 32px 633px 32px;
@@ -163,7 +168,7 @@
     .watch-break {
         padding-bottom: 45%;
     }
-}
+
 
 @media (min-width:375px) and (max-width: 767px) {
 
@@ -540,6 +545,7 @@
         left: 300px;
 
     }
+   
     .about-text {
         width: 439px;
     }

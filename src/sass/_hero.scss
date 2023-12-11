@@ -27,17 +27,18 @@
     font-weight: 300;
     line-height: 1.28em;
     letter-spacing: -0.28px;
-    
+    margin:0;
 }
 
 .hero-image {
     display: flex;
     flex-wrap: wrap;
-    gap: 64px;
+   /*  gap: 64px; */
 }
 
 .hero-img {
     object-fit: cover;
+
 }
 
 /* end of hero style  */
@@ -61,6 +62,7 @@
 
 .swiper-wrapper {
     text-align: center;
+     
 }
 
 .swiper-slide img {
@@ -68,14 +70,14 @@
     height: 233px;
     flex-shrink: 0;
     object-fit: cover;
+   
 }
 
 .swiper-pagination-custom {
     display: flex;
     text-align: right;
     align-items: end;
-    z-index: 0;
-
+    z-index: 0; 
 }
 
 .swiper-pagination {
