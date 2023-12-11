@@ -1,45 +1,51 @@
 // Tablet Media Querries 
 @media (min-width: 768px) and (max-width: 1157px) {
-   .header,
-   .hero-section{
-        width: 1158px;
-   }
+    .container{
+        width: 768px;   
+    }
     .header-logo{
-        padding:0;
-        margin: 55px 38px 0;
+        padding: 36px 38px;
+        margin:0;     
     }
-    .logo-container{
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: -0.45px;
+    .logo-container {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.45px;
+    }   
+    .hero-container {   
+        padding: 0;
+        margin: 0 36;
+        position:relative;
+        padding-bottom:64px;
     }
-    .hero-container{
-        padding:0;
-        margin:0 36px;
-
+    
+    .hero-disc h1 {
+        width: 653px;
+        padding: 0;
     }
-    .hero-disc h1{
-       width: 653px;
-       padding:0;
-    }
-    .hero-disc p{
+    
+    .hero-disc p {
+        width: 248px; 
         position: absolute;
-        top:550;
-        right:-30;
+        top: 450;
+        right: -10;
     }
-    .swiper-buttons{
+    
+    .swiper-buttons {
         transform: translateY(-70%);
-    } 
+    }
+    
     .slider-container {
         position: relative;
-
-    }  
-      .swiper-pagination{
-        padding: 35px;
+    
+     }
+    
+    .swiper-pagination {
+            padding: 35px;
     }
-    .swiper-pagination-custom {
-        left: 275px;
-    }
+     .swiper-pagination-custom {
+            left: 275px;
+    }           
     .catalog-image-item-1 {
         display: none;
     }
@@ -475,7 +481,9 @@
     .hero-disc {
         gap: 144px;
     }
-
+    .hero-disc p{
+        width: 282px;
+    }
     .hero-image {
         flex-wrap: nowrap;
         gap: 64px;
