@@ -51,8 +51,9 @@
     }      
        //ABOUT//
     .about-container{
-        margin: 64px 32px 122px 32px;
-        gap:40px;   
+        margin: 64px 32px 633px 32px;
+        gap:40px; 
+        position: relative;
     }
     .about-text{
         width:220px;
@@ -64,11 +65,13 @@
         gap:20px;
     }
     .about-image{
-        width: 768px;
-        height: 1223px;
-        flex-shrink: 0;
-        text-align:left:
+        width: 704px;
+        height: 465px;
+        flex-shrink: 0; 
         margin-right: 32px;
+        position: absolute;
+        top:198;
+        left:0;
     }
        //catalog//
     .catalog-image-item-1 {
