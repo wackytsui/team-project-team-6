@@ -52,6 +52,7 @@
     flex-shrink: 0;
     background-color: var(--dark-green);
     justify-content: center;
+    z-index: 0;
 }
 
 .slider-container {
@@ -91,7 +92,7 @@
 .swiper-pagination {
     width: 50px;
     padding: 35px;
-
+    z-index: 0;
 }
 
 .swiper-pagination-line::after {
