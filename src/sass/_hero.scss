@@ -1,7 +1,7 @@
 /* start of hero style */
 .hero-container {
     display: flex;
-    margin: 0 132px 0 132px;
+        margin: 0 132px 0 132px;
     flex-wrap: wrap;
 }
 
@@ -39,9 +39,6 @@
 
 .hero-img {
     margin-bottom: 125px;
-    width: 676px;
-    height: 394px;
-    flex-shrink: 0;
 }
 
 /* end of hero style  */
@@ -52,6 +49,7 @@
     width: 436px;
     height: 255px;
     flex-shrink: 0;
+    flex-shrink: 0;
     background-color: var(--dark-green);
     justify-content: center;
 }
@@ -59,7 +57,6 @@
 .slider-container {
     position: relative;
     padding: 0px;
-    
 }
 
 .slide-button {
