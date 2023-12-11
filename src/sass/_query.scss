@@ -182,6 +182,52 @@
     .watch-break {
         padding-bottom: 45%;
     }
+
+    // satrt of watches query
+
+    .watch-img img,
+    .watch-img {
+        width: 342px;
+        height: 260px;
+    }
+
+    .watches-section {
+        padding-bottom: 60px;
+    }
+
+
+    // start of sale query
+
+    .sale-container {
+        margin-top: 60px;
+    }
+    
+    .sale-img-list {
+        flex-wrap:wrap;
+        width: 572px;
+    }
+    .sale-img-container {
+        margin: 0 60px;
+    }
+
+    // end of sale query 
+
+    .section-footer {
+        display: flex;
+        margin: 0 32px 0 32px;
+        padding-top: 80px;
+    }
+
+    .footer-privacy {
+        margin: 0 32px 0 32px;
+        padding-bottom: 20px;
+
+    }
+
+    // start of footer query
+
+
+
 }
 
 // Mobile Media Querries
