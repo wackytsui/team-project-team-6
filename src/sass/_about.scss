@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+    
 .about-container li h2 {
     display: flex;
     flex-wrap: nowrap;
@@ -35,8 +32,7 @@
     color: var(--black, #141414);
     font-size: 14px;
     font-weight: 300;
-    line-height: 18px;
-    /* 128.571% */
+    line-height: 1.28em;
     letter-spacing: -0.28px;
 }
 

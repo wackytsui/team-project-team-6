@@ -2,7 +2,9 @@
 @media (min-width: 768px) and (max-width: 1157px) {
     .container{
         width: 768px;   
+        border:0.5px solid red  ;  
     }
+    //header//
     .header-logo{
         padding: 36px 38px;
         margin:0;     
@@ -12,6 +14,7 @@
         font-weight: 400;
         letter-spacing: -0.45px;
     }   
+    //hero//
     .hero-container {   
         padding: 0;
         margin: 0 36;
@@ -45,7 +48,29 @@
     }
      .swiper-pagination-custom {
             left: 275px;
-    }           
+    }      
+       //ABOUT//
+    .about-container{
+        margin: 64px 32px 122px 32px;
+        gap:40px;   
+    }
+    .about-text{
+        width:220px;
+    }
+    .about-text.two{
+        width:250px;
+    }
+    .about-disc{
+        gap:20px;
+    }
+    .about-image{
+        width: 768px;
+        height: 1223px;
+        flex-shrink: 0;
+        text-align:left:
+        margin-right: 32px;
+    }
+       //catalog//
     .catalog-image-item-1 {
         display: none;
     }
@@ -511,6 +536,12 @@
     .swiper-pagination-custom {
         left: 300px;
 
+    }
+    .about-text {
+        width: 439px;
+    }
+    .about-text.two{
+        width:380px;
     }
 
 }
