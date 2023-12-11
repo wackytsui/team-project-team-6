@@ -212,6 +212,31 @@
     .watch-break {
         padding-bottom: 45%;
     }
+
+    // block section / watches
+    .watches-section {
+        margin: 0 32px 0 32px;
+        padding: 0;
+    }
+    .watches-container {
+        margin: 0;
+        width: 100%;
+        padding: 0
+    }
+    .watch-img img {
+        width: 100%;
+    }
+    // block section / watches
+
+    // sale section
+    .sale-container {
+        margin: 0 32px 0 32px;
+        padding: 0;
+    }
+    .sale-img-list {
+        flex-direction: column;
+    }
+    // sale section
 }
 
 // Mobile Media Querries
