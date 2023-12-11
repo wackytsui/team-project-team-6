@@ -74,21 +74,29 @@
     // end of header
 
     // about 
-    .about-container {
-        margin: 0;
-        padding: 64px 32px 0 32px;
-        width: 100%;
+    //ABOUT//
+    .about-container{
+        margin: 64px 32px 633px 32px;
+        gap:40px; 
+        position: relative;
     }
-
-    .about-disc {
-        width: 100%;
-        // position: relative;
+    .about-text{
+        width:220px;
     }
-
-    .about-image {
-        width: 100%;
-        // position: absolute;
-        left: 0;
+    .about-text.two{
+        width:250px;
+    }
+    .about-disc{
+        gap:20px;
+    }
+    .about-image{
+        width: 704px;
+        height: 465px;
+        flex-shrink: 0; 
+        margin-right: 32px;
+        position: absolute;
+        top:198;
+        left:0;
     }
     // about
 
