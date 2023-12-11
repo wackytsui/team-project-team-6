@@ -51,8 +51,9 @@
 
     .hero-disc p {
         position: absolute;
-        top: 550;
-        right: -30;
+        top: 470;
+        left: 488;
+        // right: -30;
     }
 
     .swiper-buttons {
@@ -81,16 +82,16 @@
         position: relative;
     }
     .about-text{
-        width:220px;
+        width:100%;
     }
     .about-text.two{
-        width:250px;
+        width:100%;
     }
     .about-disc{
         gap:20px;
     }
     .about-image{
-        width: 704px;
+        width: 100%;
         height: 465px;
         flex-shrink: 0; 
         margin-right: 32px;
@@ -498,6 +499,8 @@
     }
 
     .modal {
+        object-fit: cover;
+        top: 0;
         width: auto;
         height: auto;
         background-color: white;
@@ -507,9 +510,11 @@
         margin-top: 10px;
         padding-top: 20px;
         display: flex;
+        justify-content: flex-start;
         flex-direction: column;
         align-items: center;
         z-index: 3;
+        scroll-behavior: auto;
     }
 
     .modal img {
